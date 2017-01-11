@@ -1,0 +1,6 @@
+hash: 7a50722d1642d7e00b3ac35272785003635a68b85723cd675e571afaf39c5a62
+updated: 2017-01-11T16:58:19.077646259+08:00
+imports:
+- name: github.com/NebulousLabs/go-upnp
+  version: 4cb2878bf16cf385ddd26bad5500c41a1aefbfcc
+testImports: []

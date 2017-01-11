@@ -1,0 +1,3 @@
+package: github.com/zwh8800/portmap
+import:
+- package: github.com/NebulousLabs/go-upnp
