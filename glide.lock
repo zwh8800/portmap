@@ -1,6 +1,53 @@
 hash: 7a50722d1642d7e00b3ac35272785003635a68b85723cd675e571afaf39c5a62
-updated: 2017-01-11T16:58:19.077646259+08:00
+updated: 2017-01-11T23:55:22.852765103+08:00
 imports:
+- name: github.com/dchest/blake2b
+  version: 3c8c640cd7bea3ca78209d812b5854442ab92fed
+- name: github.com/huin/goupnp
+  version: 679507af18f3c7ba2bcc7905392ce23e148661c3
+  subpackages:
+  - dcps/internetgateway1
+  - httpu
+  - scpd
+  - soap
+  - ssdp
+- name: github.com/NebulousLabs/ed25519
+  version: 0e573b1741e255fe4a9903f4b2346a01fc45935a
 - name: github.com/NebulousLabs/go-upnp
   version: 4cb2878bf16cf385ddd26bad5500c41a1aefbfcc
-testImports: []
+- name: github.com/NebulousLabs/merkletree
+  version: f03f604fef258cff933ca52feac492b08e22ef3a
+- name: github.com/NebulousLabs/Sia
+  version: 0c8cf785496936a6fa21979bbe711d53349db55d
+  subpackages:
+  - crypto
+  - encoding
+- name: golang.org/x/crypto
+  version: 7c6cc321c680f03b9ef0764448e780704f486b51
+  subpackages:
+  - twofish
+- name: golang.org/x/net
+  version: 60c41d1de8da134c05b7b40154a9a82bf5b7edb9
+  subpackages:
+  - html/charset
+  - html
+  - html/atom
+- name: golang.org/x/text
+  version: 44f4f658a783b0cee41fe0a23b8fc91d9c120558
+  subpackages:
+  - encoding
+  - encoding/charmap
+  - encoding/htmlindex
+  - transform
+  - encoding/internal/identifier
+  - encoding/internal
+  - encoding/japanese
+  - encoding/korean
+  - encoding/simplifiedchinese
+  - encoding/traditionalchinese
+  - encoding/unicode
+  - language
+  - internal/utf8internal
+  - runes
+  - internal/tag
+devImports: []
